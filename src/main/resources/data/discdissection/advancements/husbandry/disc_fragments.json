@@ -1,0 +1,102 @@
+{
+  "parent": "minecraft:husbandry/root",
+  "criteria": {
+    "disc_fragments": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "discdissection:disc_fragment_11"
+            ]
+          },
+          {
+            "items": [
+              "discdissection:disc_fragment_13"
+            ]
+          },
+          {
+            "items": [
+              "discdissection:disc_fragment_blocks"
+            ]
+          },
+          {
+            "items": [
+              "discdissection:disc_fragment_cat"
+            ]
+          },
+          {
+            "items": [
+              "discdissection:disc_fragment_chirp"
+            ]
+          },
+          {
+            "items": [
+              "discdissection:disc_fragment_far"
+            ]
+          },
+          {
+            "items": [
+              "discdissection:disc_fragment_mall"
+            ]
+          },
+          {
+            "items": [
+              "discdissection:disc_fragment_mellohi"
+            ]
+          },
+          {
+            "items": [
+              "discdissection:disc_fragment_otherside"
+            ]
+          },
+          {
+            "items": [
+              "discdissection:disc_fragment_pigstep"
+            ]
+          },
+          {
+            "items": [
+              "discdissection:disc_fragment_stal"
+            ]
+          },
+          {
+            "items": [
+              "discdissection:disc_fragment_strad"
+            ]
+          },
+          {
+            "items": [
+              "discdissection:disc_fragment_wait"
+            ]
+          },
+          {
+            "items": [
+              "discdissection:disc_fragment_ward"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.husbandry.disc_fragments.description"
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "item": "discdissection:disc_fragment_otherside"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.husbandry.disc_fragments.title"
+    }
+  },
+  "requirements": [
+    [
+      "disc_fragments"
+    ]
+  ]
+}

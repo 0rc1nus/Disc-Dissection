@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "discdissection:item/disc_fragment_ward"
+  }
+}
