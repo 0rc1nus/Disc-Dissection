@@ -1,13 +1,13 @@
 package net.orcinus.discdissection.init;
 
 import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.DiscFragmentItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.orcinus.discdissection.DiscDissection;
-import net.orcinus.discdissection.items.DiscFragmentItem;
 
 @Mod.EventBusSubscriber(modid = DiscDissection.MODID, bus = Mod.EventBusSubscriber.Bus.MOD)
 public class DDItems {
