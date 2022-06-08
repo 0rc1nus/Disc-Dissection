@@ -34,7 +34,7 @@ import org.jetbrains.annotations.NotNull;
 public class MiscEvents {
 
     @SubscribeEvent
-    public void onLootTableLoad(LootTableLoadEvent event) {
+    public void onLoottableLoad(LootTableLoadEvent event) {
         LootTable table = event.getTable();
         ResourceLocation name = event.getName();
         if (name.equals(BuiltInLootTables.BASTION_OTHER)) {
